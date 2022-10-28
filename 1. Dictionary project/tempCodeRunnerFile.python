@@ -1,0 +1,6 @@
+def fun(a, *tup):
+    res = a
+    for i in tup:
+        res = res * i
+    print(res)
+fun(1,2,3,4)
